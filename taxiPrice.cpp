@@ -76,7 +76,7 @@ int longTimePrice() {
         }
         
         if (dd <= 100) return 800*day;
-        else return 800*day + (dd-100)*5;
+        else return 800*day + (dd-100*day)*5;
     } else {
         int dw, week;
         cout << "Nhap so km da di:" << endl;
